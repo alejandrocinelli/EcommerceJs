@@ -1,0 +1,37 @@
+ [{
+    "id": 1,
+    "name": "Crema Antiage",
+    "price": 120,
+    "descripcion":"Combate la sequedad, opacidad y primeros signos de envejecimiento cutáneo.",
+    "img": "/img/1.jpg"
+},
+{ 
+    "id": 2,
+    "name": "Crema Natura",
+    "price": 80,
+    "descripcion":"D97% DE INGREDIENTES DE ORIGEN NATURAL. Potencia natural para cuidar y humectar tu piel.",
+    "img": "/img/2.jpg"
+},
+{
+    "id": 3,
+    "name": "Crema Ojos",
+    "price": 150,
+    "descripcion":"Crema especialmente formulada para reducir los signos de la edad en la delicada zona ocular ",
+    "img": "/img/3.jpg"
+},
+{
+    "id": 4,
+    "name": "Crema Limpieza",
+    "price": 100,
+    "descripcion":"Crema de limpieza profunda Isdinceutics age reverse crema facial night 50 gr",
+    "img": "/img/4.jpg"
+},
+{
+    "id": 5,
+    "name": "Crema Post Party",
+    "price": 70,
+    "descripcion":"Crema especialmente formulada para limpieza Isdinceutics flavo-c ultraglican (30 ampollas)  ",
+    "img": "/img/5.jpg"
+}
+
+]

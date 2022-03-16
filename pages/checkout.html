@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE CUROLOGY-CHECKOUT</title>
+  <link rel="stylesheet" href="/css/formulario.css">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <form action="" id="formulario">
+      <div class="bg-gray-300">
+        <div class="py-12">
+          <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg md:max-w-xl mx-2">
+            <div class="md:flex">
+              <div class="w-full p-4 px-5 py-5">
+                <div class="flex flex-row">
+                  <h2 class="text-3xl font-semibold">THE CUROLOGY CREAM</h2>
+                </div>
+                <div class="flex flex-row pt-2 text-xs pt-6 pb-5">
+                  <span class="font-bold">Information</span>
+                  <small class="text-gray-400 ml-1">></small>
+                  <span class="text-gray-400 ml-1">Shopping</span>
+                  <small class="text-gray-400 ml-1">></small>
+                  <span class="text-gray-400 ml-1">Payment</span>
+                </div>
+                <span>Customer Information</span>
+                <div class="relative pb-5">
+                  <input id="mail_grupo" type="text" name="mail"
+                    class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                    placeholder="E-mail .... xxx@xxxxx.com" />
+                  <span class="absolute text-blue-500 right-2 top-4 font-medium text-sm">Log out</span>
+                </div>
+                <span>Shipping Address</span>
+                <div class="grid md:grid-cols-2 md:gap-2">
+                  <input id="firstName_grupo" type="text" name="firstName"
+                    class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                    placeholder="First name - Not Simbols" />
+                  <input id="lastName_grupo" type="text" name="lastName"
+                    class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                    placeholder="Last name - Not Simbols" />
+                </div>
+                <input type="text" name="company"
+                  class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                  placeholder="Company (optional)" />
+                <input id="address_grupo" type="text" name="address"
+                  class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                  placeholder="Address*" />
+                <input id="apartment_grupo" type="text" name="apartment"
+                  class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                  placeholder="Apartment, suite, etc. (optional)" />
+                <div class="grid md:grid-cols-3 md:gap-2">
+                  <input id="zipcode_grupo" type="text" name="zipcode"
+                    class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                    placeholder="Zipcode(4/6 digitos)" />
+                  <input id="city_grupo" type="text" name="city"
+                    class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                    placeholder="City*" />
+                  <input id="state_grupo" type="text" name="state"
+                    class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                    placeholder="State" />
+                </div>
+                <input id="country_grupo" type="text" name="country"
+                  class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                  placeholder="Country*" />
+                <input id="phono_grupo" type="text" name="phono"
+                  class="border rounded h-10 w-full focus:outline-none focus:border-green-200 px-2 mt-2 text-sm"
+                  placeholder="Phone Number*(11 a 14 numeros)" />
+                <div class="flex justify-between items-center pt-2">
+                  <a href="../index.html"> Return Tu Cart </a>
+                  <button id="btnPay" type="" class="h-12 w-48 rounded font-medium text-xs bg-blue-500 text-white">
+                    GO TO PAY
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </main>
+  <a href="../index.html"> Return Tu Cart </a>
+  
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="../js/formulario.js"></script>
+</body>
+
+</html>
